@@ -1,0 +1,30 @@
+.banner {
+  display: flex;
+  flex-direction: column;
+  gap: 334px;
+
+  .bannerBottomWrapper {
+    align-items: flex-end;
+
+    .bannerBottomTitle {
+      width: 995px;
+      line-height: 1;
+    }
+
+    .bannerBottomSlogan {
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+
+      .bannerBottomButton {
+        width: fit-content;
+      }
+
+      p {
+        font-size: 14px;
+        font-weight: 500;
+        width: 170px;
+      }
+    }
+  }
+}

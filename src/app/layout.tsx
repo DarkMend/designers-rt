@@ -18,8 +18,18 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`${montserrat.className}`}>{children}</body>
+    <html lang="en" className={montserrat.variable}>
+      <body className={`${montserrat.className}`}>
+        <div className="bg-lines">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        {children}
+      </body>
     </html>
   );
 }
